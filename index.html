@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fiado Simples — Termos de Uso & Política de Privacidade</title>
+  <meta name="description" content="Termos de Uso e Política de Privacidade do aplicativo Fiado Simples." />
+  <style>
+    :root{
+      --bg: #ffffff;
+      --fg: #0f172a; /* slate-900 */
+      --muted: #475569; /* slate-600 */
+      --brand: #0ea5e9; /* sky-500 */
+      --card: #f8fafc; /* slate-50 */
+      --border: #e2e8f0; /* slate-200 */
+      --ring: #bae6fd; /* sky-200 */
+    }
+    html,body{height:100%}
+    body{
+      margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color:var(--fg); background:var(--bg); line-height:1.6;
+    }
+    .container{max-width:900px; margin:40px auto; padding:0 16px}
+    header{display:flex; flex-direction:column; gap:12px; margin-bottom:20px}
+    .badge{display:inline-block; font-size:12px; padding:4px 10px; border:1px solid var(--border); border-radius:999px; background:var(--card); color:var(--muted)}
+    h1{font-size:clamp(24px, 4vw, 36px); line-height:1.2; margin:0}
+    .sub{color:var(--muted)}
+    nav{
+      display:flex; gap:8px; flex-wrap:wrap; margin:24px 0 16px;
+    }
+    nav a{ padding:10px 14px; border:1px solid var(--border); border-radius:10px; text-decoration:none; color:var(--fg); background:#fff }
+    nav a:hover{ border-color:var(--brand)}
+    .card{ background:var(--card); border:1px solid var(--border); border-radius:16px; padding:20px; }
+    h2{margin-top:28px; font-size:22px}
+    h3{margin-top:22px; font-size:18px}
+    ul{padding-left:20px}
+    .muted{color:var(--muted)}
+    .divider{height:1px; background:var(--border); margin:24px 0}
+    footer{margin:40px 0; color:var(--muted); font-size:14px}
+    .toc{ background:#fff; border:1px solid var(--border); border-radius:12px; padding:12px; }
+    .toc h3{margin:6px 0 8px}
+    .toc ul{margin:0}
+    .sticky{
+      position:sticky; top:12px;
+    }
+    .grid{ display:grid; grid-template-columns: 1fr; gap:20px; }
+    @media (min-width: 960px){
+      .grid{ grid-template-columns: 260px 1fr; }
+    }
+    .callout{border-left:4px solid var(--brand); background:#f0f9ff; padding:12px 14px; border-radius:8px}
+    .print-btn{appearance:none; border:1px solid var(--border); border-radius:8px; padding:8px 12px; background:#fff; cursor:pointer}
+    .print-btn:focus{outline:3px solid var(--ring)}
+    /* Acessibilidade */
+    a:focus, button:focus{outline:3px solid var(--ring); outline-offset:2px}
+    /* Impressão */
+    @media print{
+      nav, .toc, .print-area{display:none}
+      body{background:#fff}
+      .card{border:none; padding:0}
+      .container{max-width:100%; margin:0;}
+      h1{margin-top:0}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">Fiado Simples</span>
+      <h1>Termos de Uso & Política de Privacidade</h1>
+      <p class="sub">Documentos simples e claros para quem usa o aplicativo no dia a dia.</p>
+      <div class="print-area">
+        <button class="print-btn" onclick="window.print()" aria-label="Imprimir esta página">🖨️ Imprimir</button>
+      </div>
+    </header>
+
+    <nav aria-label="Seções">
+      <a href="#termos">Ir para Termos de Uso</a>
+      <a href="#privacidade">Ir para Política de Privacidade</a>
+    </nav>
+
+    <div class="grid">
+      <aside class="sticky toc" aria-label="Sumário">
+        <h3>Sumário</h3>
+        <ul>
+          <li><a href="#termos">Termos de Uso</a>
+            <ul>
+              <li><a href="#sobre">1. Sobre o Fiado Simples</a></li>
+              <li><a href="#quem-pode">2. Quem pode usar</a></li>
+              <li><a href="#responsabilidades">3. Responsabilidades do usuário</a></li>
+              <li><a href="#limitacoes">4. Limitações do serviço</a></li>
+              <li><a href="#planos">5. Planos e pagamentos</a></li>
+              <li><a href="#cancelamento">6. Cancelamento e exclusão</a></li>
+              <li><a href="#alteracoes-termos">7. Alterações nos Termos</a></li>
+            </ul>
+          </li>
+          <li><a href="#privacidade">Política de Privacidade</a>
+            <ul>
+              <li><a href="#coleta">1. Informações que coletamos</a></li>
+              <li><a href="#uso-dados">2. Como usamos seus dados</a></li>
+              <li><a href="#armazenamento">3. Onde os dados ficam</a></li>
+              <li><a href="#compartilhamento">4. Compartilhamento</a></li>
+              <li><a href="#seguranca">5. Segurança</a></li>
+              <li><a href="#direitos">6. Seus direitos</a></li>
+              <li><a href="#alteracoes-politica">7. Alterações na política</a></li>
+            </ul>
+          </li>
+        </ul>
+      </aside>
+
+      <main>
+        <section id="termos" class="card" aria-labelledby="h-termos">
+          <h2 id="h-termos">📜 Termos de Uso</h2>
+          <p class="muted">Última atualização: 18 de agosto de 2025</p>
+
+          <div class="callout" role="note">
+            <strong>Resumo rápido:</strong> ao usar o Fiado Simples, você concorda com estes termos. O app ajuda a organizar fiados e não substitui documentos fiscais.
+          </div>
+
+          <h3 id="sobre">1. Sobre o Fiado Simples</h3>
+          <p>O <strong>Fiado Simples</strong> é um aplicativo que ajuda comerciantes a controlarem suas vendas fiado, pagamentos, devoluções e relatórios. Ele foi criado e é mantido pela <strong>Vasconcelos Corporation Soluções Digitais</strong>, CPF nº 704.405.044-14, com endereço comercial em Rua Industrial José de Brito, Nova Cruz/RN.</p>
+
+          <h3 id="quem-pode">2. Quem pode usar</h3>
+          <ul>
+            <li>Idade mínima recomendada: <strong>10 anos</strong>.</li>
+            <li>É necessário ter <strong>acesso à internet</strong>.</li>
+            <li>Login via <strong>conta Google</strong>.</li>
+          </ul>
+
+          <h3 id="responsabilidades">3. Responsabilidades do usuário</h3>
+          <ul>
+            <li>Manter suas informações corretas e atualizadas.</li>
+            <li>Usar o app de forma legal, sem fraudes ou usos indevidos.</li>
+            <li>Guardar seus dados de acesso com segurança.</li>
+          </ul>
+
+          <h3 id="limitacoes">4. Limitações do serviço</h3>
+          <ul>
+            <li>O Fiado Simples <strong>não funciona offline</strong> no momento.</li>
+            <li>É uma ferramenta de <strong>organização</strong> e <strong>não substitui</strong> obrigações fiscais ou contábeis.</li>
+            <li>Não nos responsabilizamos por perdas financeiras causadas por mau uso do app.</li>
+          </ul>
+
+          <h3 id="planos">5. Planos e pagamentos</h3>
+          <ul>
+            <li>Plano <strong>gratuito</strong>: até 10 clientes.</li>
+            <li>Plano pago <strong>Freguesia Boa</strong>: até 120 clientes.</li>
+            <li>Pagamentos via <strong>Mercado Pago (PIX)</strong>.</li>
+            <li>Em caso de não pagamento, o plano pode ser <strong>suspenso</strong> até a regularização.</li>
+          </ul>
+
+          <h3 id="cancelamento">6. Cancelamento e exclusão</h3>
+          <ul>
+            <li>Você pode <strong>excluir sua conta</strong> a qualquer momento no próprio app.</li>
+            <li>Ao excluir a conta, todos os dados relacionados serão <strong>apagados</strong>.</li>
+          </ul>
+
+          <h3 id="alteracoes-termos">7. Alterações nos Termos</h3>
+          <p>Podemos atualizar estes termos quando necessário. Avisaremos dentro do app em caso de mudanças relevantes.</p>
+        </section>
+
+        <div class="divider" role="separator" aria-hidden="true"></div>
+
+        <section id="privacidade" class="card" aria-labelledby="h-priv">
+          <h2 id="h-priv">🔒 Política de Privacidade</h2>
+          <p class="muted">Última atualização: 18 de agosto de 2025</p>
+
+          <div class="callout" role="note">
+            <strong>Resumo rápido:</strong> coletamos apenas o necessário (telefone do comerciante e dados de login Google). Não rastreamos sua localização.
+          </div>
+
+          <h3 id="coleta">1. Informações que coletamos</h3>
+          <ul>
+            <li>Seu <strong>número de telefone</strong> (do comerciante).</li>
+            <li>Sua <strong>conta Google</strong> para login.</li>
+          </ul>
+          <p>Não coletamos: geolocalização, números de telefone dos seus clientes, nem dados de cartão diretamente (pagamentos são processados pelo <strong>Mercado Pago</strong>).</p>
+
+          <h3 id="uso-dados">2. Como usamos seus dados</h3>
+          <ul>
+            <li>Identificar você como usuário.</li>
+            <li>Salvar e operar seus fiados, pagamentos, devoluções e relatórios.</li>
+            <li>Enviar mensagens dentro do app sobre limites de plano e notificações importantes.</li>
+          </ul>
+
+          <h3 id="armazenamento">3. Onde os dados ficam</h3>
+          <p>Todos os dados são armazenados em servidores seguros do <strong>Firebase (Google)</strong>.</p>
+
+          <h3 id="compartilhamento">4. Compartilhamento</h3>
+          <ul>
+            <li>Não vendemos, alugamos ou compartilhamos seus dados pessoais com terceiros.</li>
+            <li>Utilizamos serviços confiáveis (<strong>Google Firebase</strong> e <strong>Mercado Pago</strong>) apenas para manter o funcionamento do app.</li>
+          </ul>
+
+          <h3 id="seguranca">5. Segurança</h3>
+          <p>Usamos autenticação Google e infraestrutura com criptografia. Ainda assim, nenhum sistema é 100% seguro.</p>
+
+          <h3 id="direitos">6. Seus direitos</h3>
+          <ul>
+            <li>Solicitar a <strong>exclusão</strong> da sua conta e dados.</li>
+            <li>Usar o app sem fornecer dados além do estritamente necessário.</li>
+          </ul>
+
+          <h3 id="alteracoes-politica">7. Alterações na política</h3>
+          <p>Se houver mudanças na forma de coleta ou uso de dados, você será avisado dentro do app.</p>
+        </section>
+
+        <footer>
+          <p><strong>Responsável:</strong> Vasconcelos Corporation Soluções Digitais — CPF 704.405.044-14 — Rua Industrial José de Brito, Nova Cruz/RN — E-mail: vasconcelos.corporation@gmail.com</p>
+          <p>Em caso de dúvidas, entre em contato pelo e-mail acima.</p>
+        </footer>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
